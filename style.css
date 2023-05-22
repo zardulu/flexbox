@@ -1,0 +1,15 @@
+.container{
+    display : flex;
+    height : 100vh;
+
+// To place some gap between boxes
+    gap : 25px;
+}
+[class ^="box-"]{
+// Code from previous step are here
+
+// Placing text at center 
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
