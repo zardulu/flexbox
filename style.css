@@ -1,15 +1,26 @@
 .container{
     display : flex;
-    height : 100vh;
-
-// To place some gap between boxes
+    height : 50px;
+    
+    flex-direction: row;
     gap : 25px;
-}
-[class ^="box-"]{
-// Code from previous step are here
 
-// Placing text at center 
-    display : flex;
-    justify-content : center;
-    align-items : center;
+   
 }
+
+.box-1{
+    border: 2px solid rgb(25, 194, 33);
+    padding: .5em;
+}
+
+.box-2{
+    border: 2px solid rgb(28, 28, 165);
+    padding: .5em;
+}
+
+
+.box-3{
+    border: 2px solid rgb(202, 22, 37);
+    padding: .5em;
+}
+
